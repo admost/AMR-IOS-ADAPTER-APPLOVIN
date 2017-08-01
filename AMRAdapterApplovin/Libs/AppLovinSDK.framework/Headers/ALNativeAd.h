@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ALAnnotations.h"
+#import "ALPostbackDelegate.h"
 
 AL_ASSUME_NONNULL_BEGIN
 
@@ -65,7 +65,17 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  *  The impression tracking URL of the native ad.
  */
-@property (strong, nonatomic, readonly) NSURL *impressionTrackingURL;
+@property (strong, nonatomic, readonly) NSURL *impressionTrackingURL __deprecated_msg("Invoke method -trackImpression or -trackImpressionAndNotify: rather than firing this URL yourself.");
+
+/**
+ *  Fires the impression asynchronously.
+ */
+- (void)trackImpression;
+
+/**
+ *  Fires the impression asynchronously and notifies the provided delegate.
+ */
+- (void)trackImpressionAndNotify:(alnullable id<ALPostbackDelegate>)postbackDelegate;
 
 /**
  *  The click URL the native ad redirects to.

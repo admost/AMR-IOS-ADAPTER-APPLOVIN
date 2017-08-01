@@ -41,6 +41,9 @@
 // Indicates that an unspecified network issue occurred.
 #define kALErrorCodeUnableToPreloadNativeAd -701
 
+// Indicates that the impression has already been tracked.
+#define kALErrorCodeNativeAdImpressionAlreadyTracked -702
+
 
 //
 // Rewarded Videos
