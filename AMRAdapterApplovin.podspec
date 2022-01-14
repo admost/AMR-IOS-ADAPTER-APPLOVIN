@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterApplovin'
-  s.version          = '10.3.7.1'
+  s.version          = '11.0.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.vendored_libraries = 'AMRAdapterApplovin/Libs/libAMRAdapterApplovin.a'
   s.dependency 'AMRSDK', '~> 1.5.0'
-  s.dependency 'AppLovinSDK', '10.3.7'
+  s.dependency 'AppLovinSDK', '11.0.0'
 end
