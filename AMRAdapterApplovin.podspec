@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'AMRAdapterApplovin/Libs/AMRAdapterApplovin.xcframework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.dependency 'AMRSDK', '~> 1.5.6'
   s.dependency 'AppLovinSDK', '11.1.0'
 end
