@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterApplovin-Beta'
-  s.version          = '11.4.1.0'
+  s.version          = '11.4.2.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK-Beta', '~> 1.5.7'
-  s.dependency 'AppLovinSDK', '11.4.1'
+  s.dependency 'AppLovinSDK', '11.4.2'
 end
