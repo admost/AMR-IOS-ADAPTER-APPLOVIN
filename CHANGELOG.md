@@ -3,6 +3,10 @@
 Changelog for AMRAdapterApplovin. 
 AppLovinSDK [changelog](https://dash.applovin.com/documentation/mediation/ios/changelog)
 
+## [13.0.0.0] - 2024-09-17
+### Updated
+- Offical release for AppLovinSDK 13.0.0
+
 ## [12.6.1.0] - 2024-09-07
 ### Updated
 - Offical release for AppLovinSDK 12.6.1
