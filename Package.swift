@@ -27,8 +27,7 @@ let package = Package(
             path: "AMRAdapterApplovin",
             exclude: ["Libs"],
             linkerSettings: [
-                .linkedLibrary("c++"),
-                .unsafeFlags(["-ObjC"])
+                .linkedLibrary("c++")
             ]
         ),
         .binaryTarget(
