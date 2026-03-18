@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.83"),
+        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.84"),
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .exact("13.6.0"))
     ],
     targets: [
