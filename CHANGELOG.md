@@ -3,7 +3,7 @@
 Changelog for AMRAdapterApplovin. 
 AppLovinSDK [changelog](https://dash.applovin.com/documentation/mediation/ios/changelog)
 
-## [13.6.0] - 2026-03-18
+## [13.6.1] - 2026-03-18
 ### Updated
 - SPM support added.
 

@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterApplovinLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/releases/download/13.6.0/AMRAdapterApplovin.xcframework.zip",
-            checksum: "5e0eda0181f04a3556d10239fc9de5b7914c6cb9356db7841e4b7851c6f3a4d7"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/releases/download/13.6.1/AMRAdapterApplovin.xcframework.zip",
+            checksum: "9de8f9f01d41b54bd016f531060ebb4002869988783ef2da737ca19d4762d662"
         )
     ]
 )
