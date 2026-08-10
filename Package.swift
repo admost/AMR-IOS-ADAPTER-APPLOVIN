@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.84"),
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .exact("13.6.1"))
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .exact("13.6.4"))
     ],
     targets: [
         .target(
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterApplovinLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/releases/download/13.6.2/AMRAdapterApplovin.xcframework.zip",
-            checksum: "a7423e4bf884f374b33b8303480835f31ab863ea8c22a1d6be1b6a1fec5be82a"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/releases/download/13.6.4/AMRAdapterApplovin.xcframework.zip",
+            checksum: "7bb1509bf1c75c1f0b4679e7f46c50edd60a99cc58834a6f957fbabb489f93ad"
         )
     ]
 )
